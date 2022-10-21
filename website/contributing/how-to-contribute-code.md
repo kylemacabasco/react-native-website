@@ -4,14 +4,38 @@ title: How to Contribute Code
 
 Thank you for your interest in contributing to React Native! From commenting on and triaging issues, to reviewing and sending PRs, [all contributions are welcome](/contributing/overview). In this document, we'll cover the steps to contributing code to React Native.
 
-If you are eager to start contributing code right away, we have a list of [`good first issues`](https://github.com/facebook/react-native/labels/good%20first%20issue) that contain bugs which have a relatively limited scope.
-Issues labeled [`help wanted`](https://github.com/facebook/react-native/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22help+wanted+%3Aoctocat%3A%22+sort%3Aupdated-desc+) are good issues to submit a PR for.
-
 ## Prerequisites
 
 :::info
 Please refer to the [Environment Setup](/docs/environment-setup) guide to setup required tools and the development environment based on the platform us use and platform which you want to develop for.
 :::
+
+## For First Time Contributors 
+
+Hello first contributors! Thanks for your interest in contributing to React Native! In this document, we'll cover the very first step on how to get your first ever issue assigned to you! We know that looking at the repository is very overwhelming, so we would like to make this a seamless experience for users. 
+
+First, we have a list of [`good first issues`](https://github.com/facebook/react-native/labels/good%20first%20issue) that include bugs with relatively limited scope. Please look through to see which issue stands out to you. 
+
+After you click on an issue that you are interested in, check to see if anyone else is already assigned to this issue. An example of this would be this [`issue that has 65 different task`] (https://github.com/facebook/react-native/issues/34872) that includes a brief description of what needs to be done and how to test the code correctly. As you get to see the many different task that are open, you finally get the courage to get assigned to one of the tasks. 
+
+In order to get assigned to this issue as a collaborator, you would need to write a message (scroll to the bottom of the page) saying that you would like to help or work on a particular task that you picked, just like this [`example`](https://github.com/facebook/react-native/issues/34872#issuecomment-1268417038). After that, the user that open that issue will assign you as a contributor to that issue.  However, if you like to help out another contributor with their issue, you just have to ask if they are willing to collaborate. Please do not be nervous to ask other users if you would like to help since this is what we are all here for! 
+
+Then you would follow the following steps stated on [`Contributing Overview`](/contributing/overview), which is summarized as follows:
+
+1. Fork the React Native repository and create your branch from `main`.
+2. Make the desired changes to React Native sources. Use the `packages/rn-tester` app to test them out.
+3. If you've added code that should be tested, add tests.
+4. If you've changed APIs, update the documentation, which lives in [separate repo](https://github.com/facebook/react-native-website/).
+5. Ensure the test suite passes, either locally or on CI once you opened a pull request.
+6. Make sure your code lints (for example via `yarn lint --fix`).
+7. Push the changes to your fork.
+8. Create a pull request to the React Native repository.
+9. Review and address comments on your pull request.
+10. A bot may comment with suggestions. Generally we ask you to resolve these first before a maintainer will review your code.
+11. If changes are requested and addressed, please [request review](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review) to notify reviewers to take another look.
+12. If you haven't already, please complete the [Contributor License Agreement](/contributing/contribution-license-agreement) ("CLA"). **[Complete your CLA here.](https://code.facebook.com/cla)**
+
+Please see below for more detailed workflow that is necessary to do these steps correctly. 
 
 ## Development Workflow
 
